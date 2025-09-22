@@ -108,7 +108,7 @@ const platforms: Platform[] = [
   },
 ]
 
-export function PlatformSelection() {
+export default function PlatformSelection() {
   const navigate = useNavigate()
   const [selectedPlatforms, setSelectedPlatforms] = useState<string[]>([])
 

@@ -12,7 +12,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs"
 import { Switch } from "../components/ui/switch"
 import { Globe, Hash, Link, User, Play, Settings } from "lucide-react"
 
-export function InputConfiguration() {
+export default function InputConfiguration() {
   const navigate = useNavigate()
   const [selectedPlatforms] = useState(() => {
     try {

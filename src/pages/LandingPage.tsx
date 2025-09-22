@@ -20,7 +20,7 @@ import {
   Clock,
 } from "lucide-react"
 
-export function LandingPage() {
+export default function LandingPage() {
   const navigate = useNavigate()
   const [isHovered, setIsHovered] = useState(false)
 
