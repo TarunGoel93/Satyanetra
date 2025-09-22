@@ -66,7 +66,7 @@ export default function Dashboard() {
               <ArrowLeft className="h-4 w-4 mr-2" />
               Back to Input
             </Button>
-            <h1 className="text-xl font-semibold text-[#2d2d2d]">VISTA Analysis Dashboard</h1>
+            <h1 className="text-xl font-semibold text-[#2d2d2d]">SATYANETRA Analysis Dashboard</h1>
           </div>
           <Button
             variant="outline"

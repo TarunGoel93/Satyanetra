@@ -93,7 +93,7 @@ export function MethodsTab() {
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <Cpu className="h-5 w-5" />
-            VISTA Processing Pipeline
+            SATYANETRA Processing Pipeline
           </CardTitle>
           <p className="text-sm text-muted-foreground">
             End-to-end analytical workflow from raw data to insights

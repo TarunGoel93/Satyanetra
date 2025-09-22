@@ -74,19 +74,19 @@ export default function PlatformsPage() {
     },
     {
       id: "tiktok",
-      name: "TikTok",
+      name: "Stakeholder Trends",
       icon: Globe,
-      description: "Video content and user engagement metrics",
+      description: "Analysis of comment patterns and engagement across eConsultation submissions",
       color: "from-black to-gray-800",
-      stats: "180K+ videos/day",
+      stats: "12K+ comments/month",
     },
     {
       id: "news",
-      name: "News Media",
+      name: "MyGov.in Feedback",
       icon: Rss,
-      description: "Online news articles and editorial content",
+      description: "Analysis of citizen suggestions and comments submitted via the MyGov.in portal",
       color: "from-gray-600 to-gray-700",
-      stats: "25K+ articles/day",
+      stats: "15K+ comments/month",
     },
   ]
 
@@ -118,9 +118,9 @@ export default function PlatformsPage() {
                 </div>
                 <div>
                   <h1 className="text-xl font-bold bg-gradient-to-r from-[#8B1538] to-[#B8425A] bg-clip-text text-transparent">
-                    VISTA
+                    SATYANETRA
                   </h1>
-                  <p className="text-xs text-[#6b6b6b] -mt-1">Platform Selection</p>
+                  <p className="text-xs text-[#6b6b6b] -mt-1">Module Selection</p>
                 </div>
               </div>
             </div>
@@ -139,8 +139,7 @@ export default function PlatformsPage() {
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-4xl font-bold text-[#2d2d2d] mb-4">Select Your Analysis Platforms</h1>
           <p className="text-lg text-[#6b6b6b] max-w-2xl mx-auto mb-6">
-            Choose the social media platforms and data sources you want to analyze. You can select multiple platforms
-            for comprehensive sentiment intelligence.
+            Choose the type of analysis you want to perform on stakeholder comments submitted through the eConsultation module. You can select multiple options for comprehensive insights.
           </p>
           <div className="flex items-center justify-center gap-2">
             <Badge variant="outline" className="border-[#8B1538] text-[#8B1538] bg-white">
@@ -264,7 +263,7 @@ export default function PlatformsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
             <div className="text-sm text-[#6b6b6b]">
-              © 2024 VISTA Sentiment Intelligence Framework • Government Analytics Platform
+              © 2024 SATYANETRA Sentiment Intelligence Framework • Government Analytics Platform
             </div>
             <div className="flex items-center gap-4 text-xs text-[#6b6b6b]">
               <span>Privacy Compliant</span>

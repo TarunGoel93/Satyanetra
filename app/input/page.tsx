@@ -89,7 +89,7 @@ export default function InputPage() {
                 </div>
                 <div>
                   <h1 className="text-xl font-bold bg-gradient-to-r from-[#8B1538] to-[#B8425A] bg-clip-text text-transparent">
-                    VISTA
+                    SATYANETRA
                   </h1>
                   <p className="text-xs text-[#6b6b6b] -mt-1">Data Input</p>
                 </div>
@@ -303,7 +303,7 @@ export default function InputPage() {
               <div className="flex items-center justify-center gap-3">
                 <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-[#8B1538]"></div>
                 <div className="text-center">
-                  <p className="font-medium text-[#8B1538]">Initializing VISTA Analysis...</p>
+                  <p className="font-medium text-[#8B1538]">Initializing SATYANETRA Analysis...</p>
                   <p className="text-sm text-[#6b6b6b]">Processing your data sources and preparing the dashboard</p>
                 </div>
               </div>
@@ -317,7 +317,7 @@ export default function InputPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
             <div className="text-sm text-[#6b6b6b]">
-              © 2024 VISTA Sentiment Intelligence Framework • Government Analytics Platform
+              © 2024 SATYANETRA Sentiment Intelligence Framework • Government Analytics Platform
             </div>
             <div className="flex items-center gap-4 text-xs text-[#6b6b6b]">
               <span>Privacy Compliant</span>

@@ -20,7 +20,7 @@ export function OverviewTab() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <Card className="border border-[#d0d0d0] shadow-lg bg-white">
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-            <CardTitle className="text-sm font-medium text-[#2d2d2d]">Total Posts</CardTitle>
+            <CardTitle className="text-sm font-medium text-[#2d2d2d]">Total Comments</CardTitle>
             <MessageSquare className="h-4 w-4 text-[#8B1538]" />
           </CardHeader>
           <CardContent>
@@ -163,7 +163,7 @@ export function OverviewTab() {
         <CardHeader>
           <CardTitle className="text-[#2d2d2d]">Key Insights</CardTitle>
           <p className="text-sm text-[#6b6b6b]">
-            Auto-generated insights from VISTA analysis
+            Auto-generated insights from SATYANETRA analysis
           </p>
         </CardHeader>
         <CardContent>

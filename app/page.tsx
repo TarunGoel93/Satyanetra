@@ -31,7 +31,7 @@ export default function HomePage() {
     {
       icon: Brain,
       title: "AI-Powered Insights",
-      description: "Advanced sentiment analysis using VISTA framework methodology",
+      description: "Advanced sentiment analysis using SATYANETRA framework methodology",
     },
     {
       icon: TrendingUp,
@@ -64,15 +64,15 @@ export default function HomePage() {
               </div>
               <div>
                 <h1 className="text-xl font-bold bg-gradient-to-r from-[#8B1538] to-[#B8425A] bg-clip-text text-transparent">
-                  VISTA
+                  SATYANETRA
                 </h1>
-                <p className="text-xs text-[#6b6b6b] -mt-1">Sentiment Intelligence</p>
+                <p className="text-xs text-[#6b6b6b] -mt-1">AI-Powered Sentiment Analysis for eConsultation</p>
               </div>
             </div>
 
             <div className="flex items-center gap-4">
               <Badge variant="outline" className="border-[#8B1538] text-[#8B1538] bg-white">
-                Government Analytics Platform
+                Ministry of Corporate Affairs Platform
               </Badge>
             </div>
           </div>
@@ -84,18 +84,18 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto text-center">
           <div className="mb-8">
             <Badge variant="outline" className="border-[#8B1538] text-[#8B1538] bg-white mb-4">
-              Next-Generation Sentiment Analysis
+              Smart Feedback Intelligence
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold text-[#2d2d2d] mb-6 text-balance">
-              Unlock the Power of
+              Unlock Insights from
               <span className="bg-gradient-to-r from-[#8B1538] to-[#B8425A] bg-clip-text text-transparent">
                 {" "}
-                Public Sentiment
+                Stakeholder Comments
               </span>
             </h1>
             <p className="text-xl text-[#6b6b6b] mb-8 max-w-3xl mx-auto text-pretty">
-              VISTA provides comprehensive sentiment intelligence for government agencies, analyzing millions of social
-              media posts to deliver actionable insights for policy making and public engagement.
+              Satyanetra analyzes stakeholder feedback in the eConsultation module.
+It delivers sentiment insights, summaries, and word clouds for better decision-making.
             </p>
           </div>
 
@@ -142,9 +142,9 @@ export default function HomePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#2d2d2d] mb-4">Comprehensive Sentiment Intelligence</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#2d2d2d] mb-4">Key Outcomes</h2>
             <p className="text-lg text-[#6b6b6b] max-w-2xl mx-auto">
-              Our VISTA framework provides deep insights across Voice, Interpretation, Storyline, Trajectory, and
+              Our SATYANETRA provides deep insights across Voice, Interpretation, Storyline, Trajectory, and
               Alignment dimensions.
             </p>
           </div>
@@ -180,7 +180,7 @@ export default function HomePage() {
             </div>
             <h2 className="text-3xl font-bold text-[#2d2d2d] mb-4">Ready to Transform Your Analytics?</h2>
             <p className="text-lg text-[#6b6b6b] mb-8">
-              Join 50+ government agencies using VISTA for data-driven decision making and public engagement insights.
+              Join 50+ government agencies using SATYANETRA for data-driven decision making and public engagement insights.
             </p>
             <Link href="/platforms">
               <Button
@@ -204,7 +204,7 @@ export default function HomePage() {
                 <Zap className="h-3 w-3 text-white" />
               </div>
               <span className="text-sm text-[#6b6b6b]">
-                © 2024 VISTA Sentiment Intelligence Framework • Government Analytics Platform
+                © 2024 SATYANETRA Sentiment Intelligence Framework • Government Analytics Platform
               </span>
             </div>
             <div className="flex items-center gap-4 text-xs text-[#6b6b6b]">
