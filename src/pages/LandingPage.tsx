@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { useRouter } from "next/navigation"
 import { Card } from "../components/ui/card"
 import { Button } from "../components/ui/button"
 import { Badge } from "../components/ui/badge"
@@ -21,7 +21,7 @@ import {
 } from "lucide-react"
 
 export default function LandingPage() {
-  const navigate = useNavigate()
+  const router = useRouter()
   const [isHovered, setIsHovered] = useState(false)
 
   return (
@@ -75,7 +75,7 @@ export default function LandingPage() {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-[#8B1538] to-[#B8425A] hover:from-[#7A1230] hover:to-[#A63B52] text-white px-8 py-3 text-lg w-full sm:w-auto"
-                onClick={() => navigate("/platforms")}
+                onClick={() => router.push("/platforms")}
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
@@ -266,7 +266,7 @@ export default function LandingPage() {
           <Button
             size="lg"
             className="bg-white text-[#8B1538] hover:bg-gray-100 px-8 py-3 text-lg font-semibold w-full sm:w-auto"
-            onClick={() => navigate("/platforms")}
+            onClick={() => router.push("/platforms")}
           >
             Get Started Now
             <ArrowRight className="ml-2 h-5 w-5" />

@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { useRouter } from "next/navigation"
 import { Card } from "../components/ui/card"
 import { Button } from "../components/ui/button"
 import { Badge } from "../components/ui/badge"
@@ -109,7 +109,7 @@ const platforms: Platform[] = [
 ]
 
 export default function PlatformSelection() {
-  const navigate = useNavigate()
+  const router = useRouter()
   const [selectedPlatforms, setSelectedPlatforms] = useState<string[]>([])
 
   const togglePlatform = (platformId: string) => {
@@ -121,7 +121,7 @@ export default function PlatformSelection() {
   const handleContinue = () => {
     if (selectedPlatforms.length > 0) {
       localStorage.setItem("selectedPlatforms", JSON.stringify(selectedPlatforms))
-      navigate("/input")
+      router.push("/input")
     }
   }
 
@@ -165,7 +165,7 @@ export default function PlatformSelection() {
             <Button
               variant="ghost"
               size="sm"
-              onClick={() => navigate("/")}
+              onClick={() => router.push("/")}
               className="text-[#6b6b6b] hover:text-[#2d2d2d]"
             >
               <ArrowLeft className="h-4 w-4 mr-1" />
@@ -237,7 +237,7 @@ export default function PlatformSelection() {
           <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
             <Button
               variant="outline"
-              onClick={() => navigate("/")}
+              onClick={() => router.push("/")}
               className="border-[#d0d0d0] text-[#6b6b6b] hover:bg-gray-50 w-full sm:w-auto"
             >
               <ArrowLeft className="h-4 w-4 mr-2" />

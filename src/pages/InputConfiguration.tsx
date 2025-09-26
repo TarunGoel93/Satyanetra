@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { useRouter } from "next/navigation"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card"
 import { Button } from "../components/ui/button"
 import { Input } from "../components/ui/input"
@@ -13,7 +13,7 @@ import { Switch } from "../components/ui/switch"
 import { Globe, Hash, Link, User, Play, Settings } from "lucide-react"
 
 export default function InputConfiguration() {
-  const navigate = useNavigate()
+  const router = useRouter()
   const [selectedPlatforms] = useState(() => {
     try {
       return JSON.parse(localStorage.getItem("selectedPlatforms") || "[]")
@@ -84,7 +84,7 @@ export default function InputConfiguration() {
     localStorage.setItem("analysisConfig", JSON.stringify(config))
 
     console.log("[v0] Navigating to dashboard...")
-    navigate("/dashboard")
+    router.push("/dashboard")
   }
 
   const isConfigValid = () => {
