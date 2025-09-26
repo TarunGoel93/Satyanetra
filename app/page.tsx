@@ -204,7 +204,7 @@ It delivers sentiment insights, summaries, and word clouds for better decision-m
                 <Zap className="h-3 w-3 text-white" />
               </div>
               <span className="text-sm text-[#6b6b6b]">
-                © 2024 SATYANETRA Sentiment Intelligence Framework • Government Analytics Platform
+                © 2025 SATYANETRA Sentiment Intelligence Framework • Government Analytics Platform
               </span>
             </div>
             <div className="flex items-center gap-4 text-xs text-[#6b6b6b]">

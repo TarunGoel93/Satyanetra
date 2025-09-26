@@ -5,7 +5,7 @@ export const kpiMetrics: KPIMetrics = {
   platforms: 8,
   avgSentiment: 0.34,
   topEmotion: "Trust",
-  timeRange: "2023-2024"
+  timeRange: "2023-2025"
 };
 
 export const sentimentData: SentimentData = {
@@ -101,9 +101,9 @@ export const timeSeriesData: TimeSeriesData[] = [
   { date: "2023-10", volume: 115678, sentiment: 0.42, positive: 51.3, negative: 19.8, neutral: 28.9 },
   { date: "2023-11", volume: 123456, sentiment: 0.38, positive: 50.1, negative: 21.2, neutral: 28.7 },
   { date: "2023-12", volume: 108901, sentiment: 0.33, positive: 48.9, negative: 22.6, neutral: 28.5 },
-  { date: "2024-01", volume: 134567, sentiment: 0.29, positive: 47.8, negative: 23.8, neutral: 28.4 },
-  { date: "2024-02", volume: 128934, sentiment: 0.26, positive: 46.9, negative: 24.7, neutral: 28.4 },
-  { date: "2024-03", volume: 142356, sentiment: 0.34, positive: 49.1, negative: 22.1, neutral: 28.8 }
+  { date: "2025-01", volume: 134567, sentiment: 0.29, positive: 47.8, negative: 23.8, neutral: 28.4 },
+  { date: "2025-02", volume: 128934, sentiment: 0.26, positive: 46.9, negative: 24.7, neutral: 28.4 },
+  { date: "2025-03", volume: 142356, sentiment: 0.34, positive: 49.1, negative: 22.1, neutral: 28.8 }
 ];
 
 export const alignmentData: AlignmentData[] = [

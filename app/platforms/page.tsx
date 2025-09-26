@@ -263,7 +263,7 @@ export default function PlatformsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
             <div className="text-sm text-[#6b6b6b]">
-              © 2024 SATYANETRA Sentiment Intelligence Framework • Government Analytics Platform
+              © 2025 SATYANETRA Sentiment Intelligence Framework • Government Analytics Platform
             </div>
             <div className="flex items-center gap-4 text-xs text-[#6b6b6b]">
               <span>Privacy Compliant</span>

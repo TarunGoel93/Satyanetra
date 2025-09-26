@@ -51,10 +51,10 @@ export function ExportTab() {
   ];
 
   const recentExports = [
-    { name: "VISTA_Analysis_2024-03.pdf", date: "2024-03-15", size: "7.8 MB", type: "PDF Report" },
-    { name: "Enriched_Dataset_Q1_2024.csv", date: "2024-03-10", size: "42.3 MB", type: "CSV Data" },
-    { name: "Dashboard_Snapshot_March.html", date: "2024-03-08", size: "11.7 MB", type: "HTML Dashboard" },
-    { name: "VISTA_Analysis_2024-02.pdf", date: "2024-02-28", size: "8.2 MB", type: "PDF Report" }
+    { name: "VISTA_Analysis_2025-03.pdf", date: "2025-03-15", size: "7.8 MB", type: "PDF Report" },
+    { name: "Enriched_Dataset_Q1_2025.csv", date: "2025-03-10", size: "42.3 MB", type: "CSV Data" },
+    { name: "Dashboard_Snapshot_March.html", date: "2025-03-08", size: "11.7 MB", type: "HTML Dashboard" },
+    { name: "VISTA_Analysis_2025-02.pdf", date: "2025-02-28", size: "8.2 MB", type: "PDF Report" }
   ];
 
   const handleSectionToggle = (sectionId: string) => {
@@ -147,7 +147,7 @@ export function ExportTab() {
                   <SelectItem value="all">All Time</SelectItem>
                   <SelectItem value="last30">Last 30 Days</SelectItem>
                   <SelectItem value="last90">Last 90 Days</SelectItem>
-                  <SelectItem value="q1_2024">Q1 2024</SelectItem>
+                  <SelectItem value="q1_2025">Q1 2025</SelectItem>
                   <SelectItem value="q4_2023">Q4 2023</SelectItem>
                   <SelectItem value="custom">Custom Range</SelectItem>
                 </SelectContent>

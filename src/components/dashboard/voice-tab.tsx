@@ -9,7 +9,7 @@ export function VoiceTab() {
   // Transform time series data for yearly volume by platform
   const yearlyVolumeData = [
     { year: "2023", "Social Media": 890234, "News Media": 234567, "Government": 123456, "NGOs": 67890 },
-    { year: "2024", "Social Media": 1120456, "News Media": 298734, "Government": 156789, "NGOs": 89234 }
+    { year: "2025", "Social Media": 1120456, "News Media": 298734, "Government": 156789, "NGOs": 89234 }
   ];
 
   const CustomTooltip = ({ active, payload, label }: any) => {

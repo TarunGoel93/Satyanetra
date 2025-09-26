@@ -9,18 +9,18 @@ export function TrajectoryTab() {
   const eventAnnotations = [
     { date: "2023-05", event: "Policy Announcement", impact: "High", sentiment: 0.31 },
     { date: "2023-10", event: "Budget Release", impact: "High", sentiment: 0.42 },
-    { date: "2024-01", event: "New Year Address", impact: "Medium", sentiment: 0.29 },
-    { date: "2024-03", event: "Legislative Session", impact: "High", sentiment: 0.34 }
+    { date: "2025-01", event: "New Year Address", impact: "Medium", sentiment: 0.29 },
+    { date: "2025-03", event: "Legislative Session", impact: "High", sentiment: 0.34 }
   ];
 
   // Forecast data (mock predictions)
   const forecastData = [
-    { date: "2024-04", actual: 142356, forecast: null, upper: null, lower: null },
-    { date: "2024-05", actual: null, forecast: 148000, upper: 165000, lower: 131000 },
-    { date: "2024-06", actual: null, forecast: 152000, upper: 171000, lower: 133000 },
-    { date: "2024-07", actual: null, forecast: 147000, upper: 168000, lower: 126000 },
-    { date: "2024-08", actual: null, forecast: 159000, upper: 183000, lower: 135000 },
-    { date: "2024-09", actual: null, forecast: 163000, upper: 189000, lower: 137000 }
+    { date: "2025-04", actual: 142356, forecast: null, upper: null, lower: null },
+    { date: "2025-05", actual: null, forecast: 148000, upper: 165000, lower: 131000 },
+    { date: "2025-06", actual: null, forecast: 152000, upper: 171000, lower: 133000 },
+    { date: "2025-07", actual: null, forecast: 147000, upper: 168000, lower: 126000 },
+    { date: "2025-08", actual: null, forecast: 159000, upper: 183000, lower: 135000 },
+    { date: "2025-09", actual: null, forecast: 163000, upper: 189000, lower: 137000 }
   ];
 
   // Emotion evolution data
@@ -31,8 +31,8 @@ export function TrajectoryTab() {
     { date: "2023-07", joy: 28, anger: 14, fear: 12, trust: 17, sadness: 9, surprise: 20 },
     { date: "2023-09", joy: 26, anger: 15, fear: 14, trust: 15, sadness: 11, surprise: 19 },
     { date: "2023-11", joy: 30, anger: 13, fear: 10, trust: 18, sadness: 9, surprise: 20 },
-    { date: "2024-01", joy: 27, anger: 16, fear: 13, trust: 16, sadness: 10, surprise: 18 },
-    { date: "2024-03", joy: 29, anger: 15, fear: 12, trust: 17, sadness: 9, surprise: 18 }
+    { date: "2025-01", joy: 27, anger: 16, fear: 13, trust: 16, sadness: 10, surprise: 18 },
+    { date: "2025-03", joy: 29, anger: 15, fear: 12, trust: 17, sadness: 9, surprise: 18 }
   ];
 
   // Yearly volume comparison
@@ -41,7 +41,7 @@ export function TrajectoryTab() {
     { year: "2021", volume: 1023456 },
     { year: "2022", volume: 1156789 },
     { year: "2023", volume: 1289012 },
-    { year: "2024", volume: 1347865 }
+    { year: "2025", volume: 1347865 }
   ];
 
   const CustomTooltip = ({ active, payload, label }: any) => {
@@ -238,7 +238,7 @@ export function TrajectoryTab() {
             <div className="mt-4 grid grid-cols-2 gap-4 pt-4 border-t">
               <div className="text-center">
                 <div className="text-2xl font-bold text-green-600">+24.3%</div>
-                <div className="text-sm text-muted-foreground">2024 vs 2023</div>
+                <div className="text-sm text-muted-foreground">2025 vs 2023</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold">54.2%</div>

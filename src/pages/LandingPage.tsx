@@ -298,7 +298,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="mt-4 pt-4 border-t border-[#d0d0d0] text-sm text-[#6b6b6b] text-center">
-            © 2024 VISTA Sentiment Intelligence Framework • Government Analytics Platform
+            © 2025 VISTA Sentiment Intelligence Framework • Government Analytics Platform
           </div>
         </div>
       </footer>
