@@ -58,7 +58,8 @@ To get a local copy up and running, follow these simple steps.
     pnpm dev
     ```
 
-Open [SATYANETRA.in]([http://localhost:3000](https://satyanetra-cgde.vercel.app/)) with your browser to see the result.
+Open [SATYANETRA.in](https://satyanetra-cgde.vercel.app/) with your browser to see the result.
+
 
 ## Usage Workflow
 
